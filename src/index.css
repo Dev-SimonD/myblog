@@ -66,3 +66,17 @@ input{
 .sledujte{
   padding-left: 30px;
 }
+.pointer{
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .topfooter {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .input-group{
+    width: 250px !important;
+    margin: auto ;
+  }
+}

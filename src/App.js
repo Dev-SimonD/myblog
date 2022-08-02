@@ -4,6 +4,8 @@ import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Search from "./components/Search";
 import Process from "./components/Process";
+import Footer from "./components/Footer";
+import TopFooter from "./components/TopFooter";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
    
    
     <Contact/>
+    <TopFooter/>
+    <Footer/>
     </>
   );
 }

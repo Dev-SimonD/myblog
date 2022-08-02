@@ -1,0 +1,25 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+} */
+.form{
+  background-color: #eee2df;
+}
+.image{
+  width: 200px;
+}
+.faqs{
+  background: linear-gradient(90deg, rgb(213, 241, 198) 0%, rgb(231, 231, 231) 100%);
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+button{
+  box-shadow: none !important;
+}
+input{
+    box-shadow: none !important;
+  }

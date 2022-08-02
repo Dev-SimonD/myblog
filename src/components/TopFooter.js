@@ -2,18 +2,29 @@ import React from 'react'
 
 const TopFooter = () => {
   return (
-    <div className='topfooter d-flex flex-column align-items-center'>
-        <h1 className='text-white' style={{"fontSize":"1.125rem"}}> Sledujte nás </h1>
-        <p>[] [] [] [] []</p>
-        <h2 className='text-white mt-5' style={{"fontSize":"1.125rem"}}>Přihlásit se k newsletteru </h2>
-        <nav class="navbar navbar-light bg-light">
-  <form class="d-flex m-auto w-100 mx-4">
-    <input class="form-control mr-sm-2" type="search" placeholder="example@mail.com" aria-label="Search"></input>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Prihlasit</button>
-  </form>
-</nav>
-  <h2 className='text-white' style={{"fontSize":"1.125rem"}}>Hledáte nové talenty do týmu? </h2>
-  <button className='btn btn-primary mt-4'>Pro Firmy</button>
+    <div className='topfooter row d-flex align-items-center justify-content-center'>
+        <div className="col-md sledujte ml-2">
+            <h1 className='mt-4' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}> Sledujte nás </h1>
+            <p>[] [] [] [] []</p>
+        </div>
+        <div className="col-md newsletter">
+            <h2 className='mt-5' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}>Přihlásit se k newsletteru </h2>
+           {/*  <nav class="navbar navbar-light bg-light">
+                <form class="d-flex m-auto w-100 mx-4">
+                    <input class="form-control mr-sm-2" type="search" placeholder="example@mail.com" aria-label="Search"></input>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Prihlasit</button>
+                </form>
+            </nav> */}
+            
+                <div class="input-group mb-3 ">
+                <input type="text" class="form-control" placeholder="example@mail.com" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                <button className="btn btn-primary" type="button" id="button-addon2">Prihlasit</button>
+                </div>
+              </div>
+        <div className="col-md mr-2 hledate">  
+            <h2 style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}>Hledáte nové talenty do týmu? </h2>
+            <button className='btn btn-primary mt-4'>Pro Firmy</button>
+        </div>
   <hr className='text-white'/>
     <ul className='d-flex row pt-4'>
         <li className='col-sm'>Newsroom</li>

@@ -6,6 +6,7 @@ import Search from "./components/Search";
 import Process from "./components/Process";
 import Footer from "./components/Footer";
 import TopFooter from "./components/TopFooter";
+import Customers from "./components/Customers";
 
 function App() {
   return (
@@ -16,9 +17,7 @@ function App() {
     <Hero/>
     <FAQ/>
     <Process/>
-   
-   
-    <Contact/>
+   <Customers/>
     <TopFooter/>
     <Footer/>
     </>

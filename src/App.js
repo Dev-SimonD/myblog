@@ -7,15 +7,16 @@ import Process from "./components/Process";
 import Footer from "./components/Footer";
 import TopFooter from "./components/TopFooter";
 import Customers from "./components/Customers";
+import Deals from "./components/Deals";
 
 function App() {
   return (
     <>
     <Navigation/>
     <Search/>
-    
-    <Hero/>
-    <FAQ/>
+    <Deals/>
+   {/*  <Hero/>
+    <FAQ/> */}
     <Process/>
    <Customers/>
     <TopFooter/>

@@ -2,12 +2,15 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <nav class="navbar navbar-light bg-light">
-  <form class="d-flex m-auto w-100 mx-4">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</nav>
+    <div style={{"backgroundColor":"#f5f8fa"}}>
+        {/* <nav class="navbar navbar-light bg-light"> */}
+              <h1 className='text-center' style={{"color":"#2d659d", "fontSize":"1rem"}}>Buď žralok, pracuj pro startup! </h1>
+                <div class="container d-flex mb-3 searchBar">
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                <button className="btn btn-primary" type="button" id="button-addon2">Hledej</button>
+                </div>
+{/* </nav> */}
+</div>
   )
 }
 

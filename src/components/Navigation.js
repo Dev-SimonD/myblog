@@ -52,7 +52,7 @@ import Image from "react-bootstrap/Image"
 function Navigation() {
   return (
     <Navbar bg="light" expand="lg" className="fixed-top mainNav" style={{"backgroundColor":"#f5f8fa"}}>
-      <Container>
+      {/* <Container> */}
         <Navbar.Brand href="#home" className="logo"><Image src={Logo}/></Navbar.Brand>
         <Nav className="me-auto d-flex flex-row m-auto">
             <Nav.Link className="pl-4" href="#home">Nabídky</Nav.Link>
@@ -81,7 +81,7 @@ function Navigation() {
             </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
-      </Container>
+     {/*  </Container> */}
     </Navbar>
   );
 }

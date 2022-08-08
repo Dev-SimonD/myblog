@@ -58,6 +58,40 @@ const Deals = () => {
             company: "Livesport",
             location: "Praha",
             remote: false
+        },{
+            id:9,
+            name: "Junior IT Konzultant",
+            company: "BCV solutions s.r.o.",
+            location: "Praha",
+            remote: false
+        },
+        {
+            id:10,
+            name: "🚗 Junior Specialista dopravy (Data Analyst/Project Manager)",
+            company: "INTENS Corporation",
+            location: "Praha",
+            remote: false
+        },
+        {
+            id:11,
+            name: "Sales & Marketing Director for TELMA AI s.r.o",
+            company: "The MAMA AI",
+            location: "Praha",
+            remote: true
+        },
+        {
+            id:12,
+            name: "🖥️ Front-end React UI vývojář | eHealth 💊 | (Type/Javascript)",
+            company: "Bindworks s.r.o.",
+            location: "Praha, Brno",
+            remote: true
+        },
+        {
+            id:13,
+            name: "🔰 VUE / JavaScript Developer 🔰",
+            company: "Easy Software",
+            location: "Praha",
+            remote: true
         },
     ])
   return (

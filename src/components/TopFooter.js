@@ -12,28 +12,19 @@ const TopFooter = () => {
     <div className='topfooter row d-flex align-items-center justify-content-center'>
         <div className="col-md sledujte ml-2">
             <h1 className='mt-4' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}> Sledujte nás </h1>
-           {/*  <p>[] [] [] [] []</p> */}
-           <div>
-            {/* <Image src={Facebook} className="w-20"/> */}
-            <Image src={Facebook} className="p-1 pointer"/>
-            <Image src={Twitter} className="p-1 pointer"/>
-            <Image src={Instagram} className="p-1 pointer"/>
-            <Image src={Linkedin} className="p-1 pointer"/>
-            <Image src={Rss} className="p-1 pointer"/>
-           </div>
+            <div>
+              <Image src={Facebook} className="p-1 pointer"/>
+              <Image src={Twitter} className="p-1 pointer"/>
+              <Image src={Instagram} className="p-1 pointer"/>
+              <Image src={Linkedin} className="p-1 pointer"/>
+              <Image src={Rss} className="p-1 pointer"/>
+            </div>
         </div>
         <div className="col-md newsletter">
-            <h2 className='mt-5' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}>Přihlásit se k newsletteru </h2>
-           {/*  <nav class="navbar navbar-light bg-light">
-                <form class="d-flex m-auto w-100 mx-4">
-                    <input class="form-control mr-sm-2" type="search" placeholder="example@mail.com" aria-label="Search"></input>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Prihlasit</button>
-                </form>
-            </nav> */}
-            
+            <h2 className='mt-5' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}>Přihlásit se k newsletteru </h2>   
                 <div class="input-group mb-3 newsletterBar">
-                <input type="text" class="form-control" placeholder="example@mail.com" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                <button className="btn btn-primary" type="button" id="button-addon2">Prihlasit</button>
+                  <input type="text" class="form-control" placeholder="example@mail.com" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                  <button className="btn btn-primary" type="button" id="button-addon2">Prihlasit</button>
                 </div>
               </div>
         <div className="col-md mr-2 hledate">  
@@ -42,13 +33,12 @@ const TopFooter = () => {
         </div>
   <hr className='text-white'/>
     <ul className='d-flex row pt-4'>
-        <li className='col-sm'>Newsroom</li>
-        <li className='col-sm'>O nás</li>
-        <li className='col-sm'>VOP</li>
-        <li className='col-sm'>Osobní údaje</li>
-        <li className='col-sm'>Cookies</li>
-        <li className='col-sm'> Pro média</li>
-        <li className='col-sm'> Kontakt </li>
+        <li className='col-sm'>Co je startup?</li>
+        <li className='col-sm'>Proč si u nás založit profil?</li>
+        <li className='col-sm'>Průvodce profilem</li>
+        <li className='col-sm'>Znalostní testy</li>
+        <li className='col-sm'>Raketový růst kariéry</li>
+        <li className='col-sm'> SharkTalk podcast</li>
     </ul>
     </div>
   )

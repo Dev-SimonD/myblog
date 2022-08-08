@@ -7,6 +7,7 @@ import Robert from "../assets/robert.jpg"
 import fac from "../assets/facebook2.png"
 import twi from "../assets/twitter2.png"
 import { Link } from "react-router-dom"
+import CarouselComponent from "../components/CarouselComponent"
 
 const Customers = () => {
 
@@ -57,22 +58,13 @@ const Customers = () => {
               že každý den poznávám do detailů nová místa planety
                a nemusím kvůli tomu cestovat daleko.
         </p>   
-        <h2>Carousel</h2>
+       {/*  <h2>Carousel</h2> */}
         
         {/* Splide */}
 
-        {customers ? (
+        {/* {customers ? (
         <Splide options={{
-            /* type:"loop", */
-                      /* mediaQuery: 'max',
-                        perPage: 3,
-                        gap: "1rem",
-                        arrows: true,
-                        width: "60vw",
-                        rewind: true,
-                        lazyLoad: false,
-                        pagination: "slider", */
-                       /*  mediaQuery: 'max', */
+           
                         perPage: 3,
                         gap: "1rem",
                         arrows: true,
@@ -115,8 +107,8 @@ const Customers = () => {
                                         <div className="cards" id='ourPicks'>
                                  <img className='splideImg' data-splide-lazy={customer.image} src={customer.image} alt="alt"/>
                                  
-                                 <div /* className='favoritesCardContent' */>
-                                 <div /* className='cardContentfavorites' */> 
+                                 <div>
+                                 <div> 
                   
                                 </div>
                                 <p className="cardTitle has-text-centered pb-5">calories: {customer.text}</p>
@@ -131,8 +123,9 @@ const Customers = () => {
                     
                     </Splide>
 
-                    ):("")}
+                    ):("")} */}
         
+        {/* <CarouselComponent/> */}
     </div>
   )
 }

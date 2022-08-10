@@ -103,7 +103,7 @@ const Deals = () => {
          </h1>
         <hr/>
         {deals.map((deal) => {
-            return(<div>
+            return(<div style={{"cursor":"pointer"}}>
                <div style={{"fontSize":"1.125rem"}}>{`${deal.name}`}</div>
                <div className='d-flex'>
                <div className='text-lightsecondary'

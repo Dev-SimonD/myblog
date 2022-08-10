@@ -32,13 +32,19 @@ const TopFooter = () => {
             <button className='btn btn-primary my-4'>Pro Firmy</button>
         </div>
   <hr className='text-white'/>
-    <ul className='d-flex row pt-4'>
-        <li className='col-sm'>Co je startup?</li>
-        <li className='col-sm'>Proč si u nás založit profil?</li>
-        <li className='col-sm'>Průvodce profilem</li>
-        <li className='col-sm'>Znalostní testy</li>
-        <li className='col-sm'>Raketový růst kariéry</li>
-        <li className='col-sm'> SharkTalk podcast</li>
+    <ul className='d-flex row pt-4 topFooterUl p-2'>
+        <li className='col-md topli'>Co je startup?</li>
+          <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/> 
+        <li className='col-md' style={{"color":"#217edb"}}>Proč si u nás založit profil?</li>
+        <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/>
+        <li className='col-md' style={{"color":"#217edb"}}>Průvodce profilem</li>
+        <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/>
+        <li className='col-md' style={{"color":"#217edb"}}>Znalostní testy</li>
+        <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/>
+        <li className='col-md' style={{"color":"#217edb"}}>Raketový růst kariéry</li>
+        <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/>
+        <li className='col-md' style={{"color":"#217edb"}}> SharkTalk podcast</li>
+        <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto", "paddingBottom":"20px"}}/>
     </ul>
     </div>
   )

@@ -40,7 +40,7 @@ const Customers = () => {
         {
             id: 6,
             image: Robert,
-            text: "Some short text"
+            text: "Some shdort text"
             },
             {
             id: 7,

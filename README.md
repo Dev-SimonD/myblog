@@ -1,4 +1,4 @@
-### clone of start up jobs front end with React and Bootstrap
+### Clone of start up jobs front end with React and Bootstrap (available at msuj.surge.sh)
 
 * Mobile Version Update:
 

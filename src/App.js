@@ -8,12 +8,14 @@ import Footer from "./components/Footer";
 import TopFooter from "./components/TopFooter";
 import Customers from "./components/Customers";
 import Deals from "./components/Deals";
+import IconBar from "./components/IconBar";
 
 function App() {
   return (
     <>
     <Navigation/>
     <Search/>
+    <IconBar/>
     <Deals/>
    {/*  <Hero/>
     <FAQ/> */}

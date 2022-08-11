@@ -97,9 +97,9 @@ const Deals = () => {
   return (
     <div className='container'>
         <h1
-         style={{"textAlign":"center", "fontSize":"1.325rem", "paddingTop":"20px"}}>
+         style={{"textAlign":"center", "fontSize":"1.325rem", "paddingTop":"40px"}}>
             Nejžhavější pracovní nabídky
-         <span style={{"backgroundColor":"red", "color":"white", "display":"inline-block","marginLeft":"0.5em"}}>HOT</span>
+         <span style={{"backgroundColor":"red", "color":"white", "marginLeft":"0.5em"}}>HOT</span>
          </h1>
         <hr/>
         {deals.map((deal) => {

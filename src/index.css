@@ -80,6 +80,7 @@ input{
 #footerRow{
   display: flex;
   padding: 20px 0;
+  justify-content: space-evenly;
 }
 .topfooter ul li{
   /* color: white; */
@@ -88,9 +89,35 @@ input{
 }
 .hledate{
   padding-right: 30px;
+  height: 100%;
+}
+.hledate h2{
+  font-size:1.125rem;
+  color:#a3aaa7;
+  text-align:end;
+  padding-right: 20px;
+  
+}
+.newsletter h2{
+  font-size:1.125rem;
+  color:#a3aaa7;
+  text-align:center;
+  padding-top: 15px;
+}
+.proFirmyBtn{
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
 }
 .sledujte{
   padding-left: 30px;
+}
+.sledujte h1{
+  font-size:1.125rem;
+  color:#a3aaa7;
+  text-align:left;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 .pointer{
   cursor: pointer;
@@ -109,12 +136,36 @@ input{
   box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
     margin-bottom: 1rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .topfooter {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+  .input-group{
+    /* width: 250px !important; */
+    width: 80% !important;
+    margin: auto ;
+  }
+  .hledate h2{
+    font-size:1.125rem;
+    color:#a3aaa7;
+    text-align:center;
+  }
+  .sledujte h1{
+    font-size:1.125rem;
+    color:#a3aaa7;
+    text-align:center;
+    padding-left: 0;
+  }
+  .proFirmyBtn{
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  
   .input-group{
     /* width: 250px !important; */
     width: 80% !important;
@@ -150,6 +201,18 @@ input{
   }
   .englishButton{
     padding: 20px;
+  }
+  .sledujte h1{
+    font-size:1.125rem;
+    color:#a3aaa7;
+    text-align:center;
+    padding-left: 0;
+    
+  }
+  .proFirmyBtn{
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
   }
   
 }

@@ -10,9 +10,9 @@ import Image from 'react-bootstrap/Image'
 const TopFooter = () => {
   return (
     <div className='topfooter row d-flex align-items-center justify-content-center'>
-        <div className="col-md sledujte ml-2">
-            <h1 className='mt-4' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}> Sledujte nás </h1>
-            <div>
+        <div className="col-lg sledujte">
+            <h1 /* style={{"fontSize":"1.125rem", "color":"#a3aaa7", "textAlign":"left"}} */> Sledujte nás </h1>
+            <div style={{"paddingLeft":"20px"}}>
               <Image src={Facebook} className="p-1 pointer"/>
               <Image src={Twitter} className="p-1 pointer"/>
               <Image src={Instagram} className="p-1 pointer"/>
@@ -20,16 +20,18 @@ const TopFooter = () => {
               <Image src={Rss} className="p-1 pointer"/>
             </div>
         </div>
-        <div className="col-md newsletter">
-            <h2 className='mt-5' style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}>Přihlásit se k newsletteru </h2>   
+        <div className="col-lg newsletter">
+            <h2 /* style={{"fontSize":"1.125rem", "color":"#a3aaa7", "textAlign":"center"}} */>Přihlásit se k newsletteru </h2>   
                 <div class="input-group mb-3 newsletterBar">
                   <input type="text" class="form-control" placeholder="example@mail.com" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                   <button className="btn btn-primary" type="button" id="button-addon2">Prihlasit</button>
                 </div>
               </div>
-        <div className="col-md mr-2 hledate">  
-            <h2 style={{"fontSize":"1.125rem", "color":"#a3aaa7"}}>Hledáte nové talenty do týmu? </h2>
-            <button className='btn btn-primary my-4'>Pro Firmy</button>
+        <div className="col-lg hledate">  
+            <h2 /* style={{"fontSize":"1.125rem", "color":"#a3aaa7", "textAlign":"end"}} */>Hledáte nové talenty do týmu? </h2>
+            <div className="proFirmyBtn">
+            <button className='btn btn-primary'>Pro Firmy</button>
+            </div>
         </div>
   <hr className='text-white'/>
     <ul className='d-flex row pt-4 topFooterUl p-2'>

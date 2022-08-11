@@ -15,26 +15,32 @@ const Process = () => {
                  <Image src={p1} className="image" fluid="true"/>
                  <h4 className="fs-6 fw-bold py-4">1. Založte si profil</h4>
                  <p /* style={{"textAlign":"justify"}} */>Protože se stanete talentem, a naše startupy vás budou moci oslovit samy. Navíc je s profilem prostě vše rychlejší a snazší.
-Nevěříte? Přesvědčte se!
+Nevěříte? <span style={{"color":"#217edb", "marginLeft":"0.5em"}}>
+ Přesvědčte se!
+  </span> 
                  </p>
                 </div>
                 <div className='d-flex flex-column align-items-center col-md'>
                 <Image src={p2} className="image" fluid="true"/>
                 <h4 className="fs-6 fw-bold py-4">2. Vyplňte si profil</h4>
-                <p /* style={{"textAlign":"justify"}} */>Jen s řádně vyplněným profilem vás najdou ty nejrelevantnější startupy.
-Vysvětlíme vám, jak na to.
+                <p /* style={{"textAlign":"justify"}} */>Jen s řádně vyplněným profilem vás najdou ty nejrelevantnější startupy. 
+                <span style={{"color":"#217edb", "marginLeft":"0.5em"}}> 
+ Vysvětlíme vám, jak na to.
+                </span>
                  </p>
                 </div>
                 <div className='d-flex flex-column align-items-center col-md'>
                 <Image src={p3} className="image" fluid="true"/>
                 <h4 className="fs-6 fw-bold py-4">3. Hlaste se na nabídky</h4>
                 <p /* style={{"textAlign":"justify"}} */>Nesázejte vše na jednu kartu a přihlašte se na všechny pracovní nabídky, které vás nejvíce oslovují.
-Jak to udělali úspěšní kandidáti?
+                <span style={{"color":"#217edb", "marginLeft":"0.5em"}}>
+ Jak to udělali úspěšní kandidáti?
+</span>
                  </p></div>
                  <div className='d-flex flex-column align-items-center col-md'>
                  <Image src={p4} className="image" fluid="true"/>
                 <h4 className="fs-6 fw-bold py-4">4. Oslovte firmy sami</h4>
-                <p className='pb-5' /* style={{"textAlign":"justify"}} */>Všechny firmy aktivně nehledají, proto se jim musíte ukázat sami. Mrkněte na startupy a oslovte je přes tlačítko "Líbilo by se mi tu pracovat".
+                <p className='pb-5' /* style={{"textAlign":"justify"}} */>Všechny firmy aktivně nehledají, proto se jim musíte ukázat sami. <span style={{"color":"#217edb"}}> Mrkněte na startupy </span> a oslovte je přes tlačítko "Líbilo by se mi tu pracovat".
                  </p></div>
             </div>
         </div>

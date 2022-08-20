@@ -8,124 +8,61 @@ import fac from "../assets/facebook2.png"
 import twi from "../assets/twitter2.png"
 import { Link } from "react-router-dom"
 import CarouselComponent from "../components/CarouselComponent"
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const Customers = () => {
 
-    const [customers, setCustomers] = useState([
-        {
-        id: 1,
-        image: Ema,
-        text: "Some short text"
-        },
-        {
-        id: 2,
-        image: Pavla,
-        text: "Some short text"
-        },
-        {
-        id: 3,
-        image: Robert,
-        text: "Some short text"
-        },
-        {
-        id: 4,
-        image: Robert,
-        text: "Some short text"
-        },
-        {
-        id: 5,
-        image: Ema,
-        text: "Some short text"
-        },
-        {
-            id: 6,
-            image: Robert,
-            text: "Some shdort text"
-            },
-            {
-            id: 7,
-            image: Ema,
-            text: "Some short text"
-            },
-])
   return (
     <div className="container">
          <h1 className="text-center fw-bold pt-5" style={{"fontSize": "1.375rem"}}>
          Co o nás říkají zájemci?
             </h1>
-         <p>Ahoj, jsem Pavla a ve SpaceKnow pracuju jako Data Analyst.
-             Na své práci mám - kromě svého týmu - nejraději to,
-              že každý den poznávám do detailů nová místa planety
-               a nemusím kvůli tomu cestovat daleko.
-        </p>   
-       {/*  <h2>Carousel</h2> */}
         
-        {/* Splide */}
+            <Carousel
+        showArrows={true}
+        infiniteLoop={true}
+        showThumbs={true}
+        showStatus={true}
+        autoPlay={false}
+        interval={6100}
+      >
+        <div>
+          <img src="/images/shirley.png" />
+          <div className="myCarousel">
+            <h3>Shirley Fultz</h3>
+            <h4>Designer</h4>
+            <p>
+              It's freeing to be able to catch up on customized news and not be
+              distracted by a social media element on the same site
+            </p>
+          </div>
+        </div>
 
-        {/* {customers ? (
-        <Splide options={{
-           
-                        perPage: 3,
-                        gap: "1rem",
-                        arrows: true,
-                        width: "60vw",
-                        type: "loop",
-                        easingFunc: true,
-                        lazyLoad: false,
-                        pagination: true,
-                         flickMaxPages: 1,
-                      
-                        breakpoints: {
-                            1000: {
-                              direction: "ltr",
-                                perPage: 3,
-                                gap: "2rem",
+        <div>
+          <img src="/images/daniel.png" />
+          <div className="myCarousel">
+            <h3>Daniel Keystone</h3>
+            <h4>Designer</h4>
+            <p>
+              The simple and intuitive design makes it easy for me use. I highly
+              recommend Fetch to my peers.
+            </p>
+          </div>
+        </div>
 
-                            },
-                              640: {
-                                direction: "ltr",
-                                  perPage: 3,
-                                gap: "1rem",
-                               
-                                                         
-                                 },
-                                 600: {
-                                  destroy: true,
-                                  
-                                   },
-                                   
-                              
-                        }
-                      
-                        
-                    }}>
-                      
-                    {customers.map((customer) => {
-                        return(
-                            <SplideSlide key={customer.id}>
-                                    
-                                        <div className="cards" id='ourPicks'>
-                                 <img className='splideImg' data-splide-lazy={customer.image} src={customer.image} alt="alt"/>
-                                 
-                                 <div>
-                                 <div> 
-                  
-                                </div>
-                                <p className="cardTitle has-text-centered pb-5">calories: {customer.text}</p>
-                                 </div>
-                               </div>
-
-                                
-                         </SplideSlide>
-                            
-                        );
-                    })}
-                    
-                    </Splide>
-
-                    ):("")} */}
-        
-        {/* <CarouselComponent/> */}
+        <div>
+          <img src="/images/theo.png" />
+          <div className="myCarousel">
+            <h3>Theo Sorel</h3>
+            <h4>Designers</h4> 
+            <p>
+              I enjoy catching up with Fetch on my laptop, or on my phone when
+              I'm on the go!
+            </p>
+          </div>
+        </div>
+      </Carousel>
     </div>
   )
 }

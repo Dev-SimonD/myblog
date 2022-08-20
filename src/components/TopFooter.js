@@ -10,7 +10,7 @@ import Image from 'react-bootstrap/Image'
 const TopFooter = () => {
   return (
     <div className='topfooter row d-flex align-items-center justify-content-center'>
-        <div className="col-lg sledujte">
+        <div className="col-lg sledujte" /* style={{"paddingLeft":"50px"}} */>
             <h1 /* style={{"fontSize":"1.125rem", "color":"#a3aaa7", "textAlign":"left"}} */> Sledujte nás </h1>
             <div style={{"paddingLeft":"20px"}}>
               <Image src={Facebook} className="p-1 pointer"/>
@@ -27,7 +27,7 @@ const TopFooter = () => {
                   <button className="btn btn-primary" type="button" id="button-addon2">Prihlasit</button>
                 </div>
               </div>
-        <div className="col-lg hledate">  
+        <div className="col-lg hledate"/*  style={{"paddingRight":"50px"}} */>  
             <h2 /* style={{"fontSize":"1.125rem", "color":"#a3aaa7", "textAlign":"end"}} */>Hledáte nové talenty do týmu? </h2>
             <div className="proFirmyBtn">
             <button className='btn btn-primary'>Pro Firmy</button>
@@ -35,7 +35,7 @@ const TopFooter = () => {
         </div>
      
   <hr className='text-white mt-4 px-2'/>
-    <ul className='d-flex row pt-4 topFooterUl p-2'>
+    <ul className='d-flex row pt-4 topFooterUl p-5'>
         <li className='col-md topli'>Co je startup?</li>
           <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/> 
         <li className='col-md' style={{"color":"#217edb"}}>Proč si u nás založit profil?</li>

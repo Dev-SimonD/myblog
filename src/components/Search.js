@@ -20,7 +20,7 @@ const Search = () => {
               <h1 className='text-center budzralok' /* style={{"color":"#2d659d", "fontSize":"1.625rem"}} */>Buď žralok, pracuj pro startup! </h1>
                 <div class="container d-flex mb-3 searchBar">
                 <input type="text" class="form-control" style={{"borderRadius":"0"}} placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                <button className="btn btn-primary" style={{"borderRadius":"0"}} type="button" id="button-addon2"><i className="fas fa-search"></i></button>
+                <button className="btn btn-primary" style={{"borderRadius":"0", "width":"60px"}} type="button" id="button-addon2"><i className="fas fa-search"></i></button>
                 
                 </div>
               {/*  <div className='searchNavbar'> */}

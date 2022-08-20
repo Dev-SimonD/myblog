@@ -52,36 +52,25 @@ import Image from "react-bootstrap/Image"
 function Navigation() {
   return (
     <Navbar bg="light" expand="lg" className="fixed-top mainNav" style={{"backgroundColor":"#f5f8fa"}}>
-      {/* <Container> */}
+     
         <Navbar.Brand href="#home" className="logo"><Image src={Logo}/></Navbar.Brand>
-        <Nav className="me-auto d-flex flex-row m-auto">
+        <Nav /* className="me-auto d-flex flex-row m-auto" */ className="d-flex flex-row justify-between">
             <Nav.Link className="pl-4" href="#home">Nabídky</Nav.Link>
             <Nav.Link className="px-2" href="#link">Startupy</Nav.Link>
-            <Nav.Link className="" href="#link">Testy znalostí</Nav.Link>
+            <Nav.Link className="" href="#link">Testy</Nav.Link>
             
             </Nav>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{"outline":"none"}} />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto m-auto">
+          <Nav /* className="me-auto m-auto" */>
           <Nav.Link className="" href="#link">Marketplace</Nav.Link>
             <Nav.Link href="#home">Vzdělávání</Nav.Link>
             <Nav.Link href="#link">Proč startup?</Nav.Link>
             <Nav.Link href="#link">O Nás</Nav.Link>
             <Nav.Link href="#link">Můj profil</Nav.Link>
-             {/*  <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
-          </Nav>
+            </Nav>
         </Navbar.Collapse>
-     {/*  </Container> */}
+   
     </Navbar>
   );
 }

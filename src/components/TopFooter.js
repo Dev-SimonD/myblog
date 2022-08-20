@@ -33,7 +33,8 @@ const TopFooter = () => {
             <button className='btn btn-primary'>Pro Firmy</button>
             </div>
         </div>
-  <hr className='text-white'/>
+     
+  <hr className='text-white mt-4 px-2'/>
     <ul className='d-flex row pt-4 topFooterUl p-2'>
         <li className='col-md topli'>Co je startup?</li>
           <hr className='text-white' style={{"width":"10px","height":"10px","margin":"auto"}}/> 

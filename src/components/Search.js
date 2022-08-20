@@ -23,8 +23,8 @@ const Search = () => {
                 <button className="btn btn-primary" style={{"borderRadius":"0"}} type="button" id="button-addon2"><i className="fas fa-search"></i></button>
                 
                 </div>
-                <div className='d-flex'>
-                <Nav className="me-auto m-auto container">
+              {/*  <div className='searchNavbar'> */}
+                {/* <Nav className="me-auto m-auto container searchNavbar">
               <NavDropdown title="Obor" id="basic-nav-dropdown"/>
               <NavDropdown title="Misto" id="basic-nav-dropdown"/>
               <NavDropdown title="Spoluprace" id="basic-nav-dropdown"/>
@@ -33,16 +33,28 @@ const Search = () => {
               <NavDropdown title="Startupy" id="basic-nav-dropdown"/>
               <NavDropdown title="Technologie" id="basic-nav-dropdown"/>
               <NavDropdown title="Jazyky" id="basic-nav-dropdown"/>
-                </Nav>
+                </Nav> */}
+              
+              <div className="scrollmenu container">
+  <a href="#">Obor</a>
+  <a href="#">Misto</a>
+  <a href="#">Spoluprace</a>
+  <a href="#">Odmena</a>
+  <a href="#">Seniorita</a>
+  <a href="#">Startupy</a>
+  <a href="#">Technologie</a>  
+  <a href="#">Jazyky</a>
+ 
+</div>
 
                 
-        <Switch
+        {/* <Switch
           onChange={handleChange}
           checked={checked}
           className="react-switch"
-        />
+        /> */}
       
-          </div>
+         {/*  </div> */}
 
 </div>
   )

@@ -40,7 +40,14 @@ body{
   text-align: center;
 }
 .iconText{
-  font-size: 2vw;
+  font-size: 16px;
+}
+.iconItem{
+  cursor: pointer;
+  width: 150px;
+}
+.iconItem:hover{
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.15) !important;
 }
 button{
   box-shadow: none !important;
@@ -51,6 +58,28 @@ button{
 input{
     box-shadow: none !important;
   }
+  /* .searchNavbar{
+    display: ruby !important;
+    overflow-x: auto !important;
+  } */
+  div.scrollmenu {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width:none;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* div.scrollmenu a:hover {
+    background-color: #777;
+  } */
 .footer{
   background-color:#212326;
   width: 100%;
@@ -210,6 +239,10 @@ input{
     display: block;
     
   }
+  .searchNavbar{
+    display: ruby !important;
+    overflow-x: auto;
+  }
   .topfooter ul li{
     /* color: white; */
    /*  text-decoration: none;
@@ -221,6 +254,9 @@ input{
   }
   .englishButton{
     padding: 20px;
+  }
+  .newsletter, .hledate{
+    padding-top: 30px;
   }
   .sledujte h1{
     font-size:1.125rem;
@@ -236,6 +272,9 @@ input{
   }
   #spoluzakladatel{
     display: none !important;
+  }
+  .iconText{
+    font-size: 10px;
   }
   
 }
